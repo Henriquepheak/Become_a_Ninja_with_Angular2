@@ -5,7 +5,9 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "module": "commonjs",
-        "noImplicitAny": false
+        "noImplicitAny": false,
+        "outDir": "built",
+        "rootDir": "."
     },
     "exclude": [
         "node_modules"
